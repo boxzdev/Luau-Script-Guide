@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getLuauHelp } from './services/gemini';
+import { getLuauHelp } from '@/services/gemini';
 import ReactMarkdown from 'react-markdown';
 
 const App: React.FC = () => {
